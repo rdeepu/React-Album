@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+.none-login {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  top: 0em;
+  right: 0em;
+  background-color: black;
+  color: gold;
+}
+
+.none-login .none-pos_a {
+  font-size: 3em;
+  position: relative;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  top: 1em;
+}
+
+@media (max-width: 1500px) {
+  .none-login [class*="none-pos_a"] {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 850px) {
+  .none-login [class*="none-pos_a"] {
+    top: -0.5em;
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 500px) {
+  .none-login [class*="none-pos_a"] {
+    top: -0.5em;
+    font-size: 2.5em;
+    margin-left: 0em;
+  }
+}
+
+.none-login form {
+  margin-top: 70%;
+  text-align: center;
+}
+
+.none-login form input[type="text"] {
+  background-color: black;
+  color: gold;
+  border-radius: 25px;
+  border: 2px solid;
+  outline: none;
+  padding: 15px;
+  width: 60%;
+}
+
+@media (max-width: 1500px) {
+  .none-login form input[type="text"] {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .none-login form input[type="text"] {
+    padding: 10px;
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .none-login form input[type="text"] {
+    padding: 5px;
+  }
+}
+
+.none-login form input[type="password"] {
+  background-color: black;
+  color: gold;
+  border-radius: 25px;
+  border: 2px solid;
+  outline: none;
+  padding: 15px;
+  width: 60%;
+}
+
+@media (max-width: 1500px) {
+  .none-login form input[type="password"] {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .none-login form input[type="password"] {
+    padding: 10px;
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .none-login form input[type="password"] {
+    padding: 5px;
+  }
+}
+
+.none-login form input[type="submit"] {
+  background-color: black;
+  color: gold;
+  border-radius: 25px;
+  border: 2px solid;
+  outline: none;
+  padding: 15px;
+  cursor: pointer;
+  width: 40%;
+}
+
+@media (max-width: 1500px) {
+  .none-login form input[type="submit"] {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .none-login form input[type="submit"] {
+    padding: 10px;
+    width: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .none-login form input[type="submit"] {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .none-login form {
+    margin-top: 60%;
+  }
+}
+
+@media (max-width: 850px) {
+  .none-login form {
+    margin-top: -2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .none-login form {
+    margin-top: -2em;
+  }
+}
+
+@media (max-width: 850px) {
+  [class*="none-login"] {
+    width: 100%;
+    height: 30em;
+    background-color: #0e0d0d;
+  }
+}
+
+img {
+  position: absolute;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 79.5%;
+  height: auto;
+}
+
+.none-img_two {
+  -webkit-animation-name: play;
+          animation-name: play;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes play {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes play {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  [class*="img"] {
+    top: 3em;
+  }
+}
+
+@media (max-width: 850px) {
+  [class*="img"] {
+    top: 30em;
+    width: 100%;
+    margin-left: 0.1em;
+  }
+}
+
+@media (max-width: 500px) {
+  [class*="img"] {
+    top: 25em;
+    right: 0em;
+  }
+}
+/*# sourceMappingURL=PageOne.css.map */

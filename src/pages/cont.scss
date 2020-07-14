@@ -1,0 +1,25 @@
+body{
+   display: flex;
+   flex-direction: row;
+   background-color:black;
+   justify-content: center;
+    .cont{ 
+        position: relative;
+        display:flex;
+        flex-direction:column;
+        width:1920px;
+        height:1080px;
+        background-color:black;
+        color:white;
+        overflow:visible;
+           }
+    @media (max-width:1920px){
+            [class *= "cont"]{
+                width:100vw;
+                height:100vh;
+            }
+        }
+    
+}     
+
+

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+
+@mixin hvr{
+    cursor: pointer;
+    transform: scale(1.1);
+    text-shadow: 5px 5px 5px red;
+}
+.nav_bar{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    height:2em;
+    background-color:black;
+    top:0em;
+    color: gold;
+    font-family: "Great Vibes",cursive;
+    font-size:2.5em;
+.icn{    
+    position: absolute;  
+    align-self: flex-start;
+    margin: 0.5em 0em 0em 0.5em;   
+    font-size: 1em;
+    }
+    @media (max-width:850px){
+        [class *= "icn"]{
+            align-self: center;
+            margin: 3em 1.5em 0em 0em;
+        }
+    }
+#pos_a{
+    position:absolute;
+    align-self: flex-start;
+    margin: 0.5em 0em 0em 1.5em;
+   }
+@media (max-width:850px){
+    #pos_a{
+        align-self: center;
+        margin: 3em 0em 0em 1.7em;
+    }
+}
+#pos_b{
+    position: absolute;
+    align-self:center;
+    margin: 0.5em 0em 0em 0em;
+    }
+#pos_c{   
+    position: relative;
+    align-self:flex-end;
+    margin: 0.5em 5em 0em 0em;
+    }
+@media (max-width:850px){
+    #pos_c{
+        align-self: flex-start;
+        margin: 6em 0em 0em 0.5em;
+    }
+}
+#pos_d{    
+    position:relative;
+    align-self:flex-end;
+    margin: -1.1em 0.7em 0em 0em;
+    }
+@media (max-width:850px){
+    #pos_d{
+        margin: -1.2em 0.5em 0em 0em;
+            }
+        }
+
+#pos_c:hover{
+    @include hvr;
+}
+#pos_d:hover{
+    @include hvr;
+}
+}
+@media(max-width: 1500px){
+    [class *= "nav_bar"]{
+        font-size: 2em;
+    }
+}
+@media(max-width: 850px){
+    [class *= "nav_bar"]{
+        height:8em;
+    }
+}
+

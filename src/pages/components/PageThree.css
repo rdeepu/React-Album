@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+.disp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.disp .pageThree_img {
+  position: absolute;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 40%;
+  margin: 6em 0em 0em 1em;
+  -webkit-box-shadow: 10px 10px 10px gold;
+          box-shadow: 10px 10px 10px gold;
+}
+
+@media (max-width: 850px) {
+  .disp [class*="pageThree_img"] {
+    width: 80%;
+    top: 40em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*="pageThree_img"] {
+    position: relative;
+    top: 39em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.disp .vline_one {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(cornsilk));
+  background-image: linear-gradient(red, cornsilk);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 7em;
+  left: 44%;
+  height: 35em;
+  width: 0.5em;
+}
+
+@media (max-width: 850px) {
+  .disp [class*="vline_one"] {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    height: 25em;
+    top: 15em;
+    left: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*="vline_one"] {
+    height: 25em;
+    width: 0.25em;
+  }
+}
+
+.disp .vline_two {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(cornsilk));
+  background-image: linear-gradient(red, cornsilk);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 10em;
+  left: 45.5%;
+  height: 30em;
+  width: 0.5em;
+}
+
+@media (max-width: 850px) {
+  .disp [class*="vline_two"] {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    height: 20em;
+    top: 18em;
+    left: 2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*="vline_two"] {
+    width: 0.25em;
+  }
+}
+
+.disp .vline_three {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(cornsilk));
+  background-image: linear-gradient(red, cornsilk);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 12em;
+  left: 47.25%;
+  height: 25em;
+  width: 0.5em;
+}
+
+@media (max-width: 850px) {
+  .disp [class*="vline_three"] {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    height: 15em;
+    top: 21em;
+    left: 3em;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*="vline_three"] {
+    width: 0.25em;
+  }
+}
+
+.disp .txt {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 2em;
+  text-align: justify;
+  margin: 9rem 2em 0em 51%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+  color: gold;
+}
+
+@media (max-width: 1500px) {
+  .disp [class*=txt] {
+    font-size: 1.5em;
+    margin: 12rem 2em 0em 51%;
+  }
+}
+
+@media (max-width: 850px) {
+  .disp [class*=txt] {
+    font-size: 1.25em;
+    margin: 16rem 2em 0em 4em;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*=txt] {
+    font-size: 1em;
+    margin: 18rem 2em 0em 4em;
+  }
+}
+
+.disp .hline_one {
+  position: absolute;
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(cornsilk));
+  background-image: linear-gradient(-90deg, red, cornsilk);
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 30%;
+  top: 40em;
+  right: 10em;
+  height: 0.5em;
+}
+
+@media (max-width: 850px) {
+  .disp [class*="hline_one"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 60%;
+    right: 6em;
+    top: 38em;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*="hline_one"] {
+    height: 0.25em;
+    top: 36em;
+  }
+}
+
+.disp .hline_two {
+  position: absolute;
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(cornsilk));
+  background-image: linear-gradient(-90deg, red, cornsilk);
+  width: 40%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  top: 41.5em;
+  right: 5em;
+  height: 0.5em;
+}
+
+@media (max-width: 850px) {
+  .disp [class*="hline_two"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 75%;
+    right: 3.5em;
+    top: 39.5em;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*="hline_two"] {
+    height: 0.25em;
+    top: 38em;
+  }
+}
+
+.disp .hline_three {
+  position: absolute;
+  background-image: -webkit-gradient(linear, right top, left top, from(red), to(cornsilk));
+  background-image: linear-gradient(-90deg, red, cornsilk);
+  width: 45%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  top: 43em;
+  right: 2em;
+  height: 0.5em;
+}
+
+@media (max-width: 850px) {
+  .disp [class*="hline_three"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 90%;
+    top: 41em;
+    right: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*="hline_three"] {
+    height: 0.25em;
+    top: 40em;
+  }
+}
+
+.disp .ftr {
+  position: absolute;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 70em;
+  color: white;
+  font-size: 0.7em;
+}
+
+@media (max-width: 850px) {
+  .disp [class*="ftr"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    top: 60em;
+  }
+}
+
+@media (max-width: 500px) {
+  .disp [class*="ftr"] {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    top: 57em;
+  }
+}
+/*# sourceMappingURL=PageThree.css.map */
