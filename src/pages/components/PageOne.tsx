@@ -2,9 +2,10 @@ import React,{Component} from 'react';
 import './PageOne.css';
 
 
-export default class Homepage extends Component{
-           
+export default class Homepage extends Component<{},any> {
+      
     render(){
+
         return(
           <div className = "disp"> 
 
@@ -29,7 +30,7 @@ export default class Homepage extends Component{
 
                    <br></br>
 
-                   <input type = "submit" value = 'Sign in'></input>
+                   <input  type = "submit" value = 'Sign in'></input>
 
                </form>
 

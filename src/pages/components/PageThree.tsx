@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import {Redirect} from 'react-router-dom';
 import './PageThree.css';
+import { response } from 'express';
 
 interface iprops{
     auth:number
@@ -16,31 +17,21 @@ export default class Aboutpage extends Component<{},any> {
     }
 
     componentWillMount(){
-          this.checkAuth().then(res => this.setState({auth:res}));   
-    }  
-      
-    componentDidUpdate(){
-        if (this.state.auth!== 200) {
-        alert('Sorry! Not authorized to view this page. Check your credentials again.');
-        }
+     this.checkAuth().then(res=>this.setState({auth:res}));
     }
-       
-          
+  
     checkAuth = async () => {
         const response =  await fetch('/checkToken');
         return response.status;
     } 
 
-
-
-
    render(){
 
     if (this.state.auth!==200){
-        return <Redirect to = '/'/>
+        return < Redirect to = '/' />
     }
+    
 
-       
     return( 
     <div className="disp"> 
 

@@ -71,25 +71,13 @@ export default class Albumpage extends Component<{},any> {
  }
 
  componentWillMount(){
-  
-  this.checkAuth().then(res => this.setState({auth:res}));
-    
+    this.checkAuth().then(res => this.setState({auth:res}));
  }  
-
- componentDidUpdate(){
-  if (this.state.auth!== 200) {
-  alert('Sorry! Not authorized to view this page. Check your credentials again.');
-  }
-}
  
-    
  checkAuth = async () => {
-
-  const response =  await fetch('/checkToken');
-   
-  return response.status;
-  
- }
+    const response =  await fetch('/checkToken');
+    return response.status;
+   }
 
   
 
