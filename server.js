@@ -28,8 +28,8 @@ app.use(cookieParser());
 
 const conn = mysql.createConnection({
     host: 'localhost',
-    user: 'administrator',
-    password:'pet*94Tmrt',
+    user: '',
+    password:'',
     database: 'testDB'
 })
 conn.connect((err)=>{
