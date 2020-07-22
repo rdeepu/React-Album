@@ -357,7 +357,7 @@ render(){
         <div className = 'cont_a'>
         <figure>
           <img className = 'img_hvr thnail' onClick = {this.tnailOne}  src = {require('./images/Album-1/01.jpg')} alt = "Nandana's first day at school" />
-          <figcaption className = "cption">My first school day...</figcaption>
+          <figcaption className = "cption">Those early days...</figcaption>
         </figure>
          
         </div>
@@ -372,7 +372,7 @@ render(){
         <div className = 'cont_c'>
           <figure>
           <img className = 'img_hvr thnail' onClick = {this.tnailThree}  src = {require('./images/Album-3/01.jpg')} alt = "Castle cochem,Germany" />
-          <figcaption className = "cption">Castle Cochem,Germany...</figcaption>
+          <figcaption className = "cption">Castle Cochem, Germany...</figcaption>
           </figure>
         </div>
 
